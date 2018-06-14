@@ -239,6 +239,10 @@ blocked, alert is displayed if error is returned.
 
 }
 
+function mapsFail(){
+  alert("Google Maps API could not be loaded")
+}
+
 //Initializes ViewModel and is called by
 //the Google Maps API on index.html
 function initApp(){
