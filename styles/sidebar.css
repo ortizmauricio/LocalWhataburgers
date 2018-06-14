@@ -1,0 +1,64 @@
+html, body{
+	height: 100vh;
+}
+
+#map{
+	height: 93vh;
+}
+
+#sidebar-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 250px;
+	height: 93vh;
+	overflow-y: hidden;
+	background-color: #444a4d;
+
+}
+
+
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;
+	padding-left: 250px;
+
+}
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+	width: 0px;
+}
+
+
+#wrapper.menuDisplayed #page-content-wrapper{
+	padding-left: 0px;
+}
+
+.sidebar-nav{
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{
+	text-indent: 15px;
+	line-height: 30px;
+	padding-top: 10px;
+}
+
+.markerlist li{
+	text-indent: 20px;
+	line-height: 40px;
+}
+
+.markerlist li a{
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+.sidebar-nav li a{
+	
+}
+
+.sidebar-nav li a:hover{
+	background-color: #16A085;
+}
+
